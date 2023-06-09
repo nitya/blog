@@ -162,3 +162,21 @@ If you want to add a Custom Domain, there are 3 steps needed:
 ## 4. CUSTOMIZATION
 
 _Now, its time to understand how to create new blog posts, new content pages, and update template structure for reuse across pages_.
+
+
+> 👉 **Step 8:** [Community | Add New Social Icons](https://bas-man.dev/post/hugo/add-new-social-beautifulhugo/)
+
+The default list of supported icons is missing _dev.to_. The blog post linked about provides insight into how social icons are structured (hint: its font-awesome!) and explains how to add a dev.to icon in. 
+ 1. Create a copy of `themes/beautifulhugo/data/beautifulhugo/social.toml` under `website/data/beautifulhugo/social.toml` and modify this. 
+ 2. Update the `config.toml` to provide your data to bind against this template.
+
+> 👉 **Step 9:** [Community | Add Dark Mode Toggle](https://yonkov.github.io/post/add-dark-mode-toggle-to-hugo/)
+
+_ 🛑 TODO:_ This item requires an understanding of how Hugo themes and layout/partials are used. The blog post above provides guidance on how to set up a "toggle" partial to flip between dark and light modes. _This has not yet been implemented in this blog site. It is documented for future work_.
+
+> 👉 **Step 10:** [ Beautiful Hugo | Config Options](https://themes.gohugo.io/themes/beautifulhugo/)
+ 
+ - Add a `paginate = X` setting in `config.toml` to specify the default number of posts to be shown on blog page (before pagination kicks in)
+ - Think of `_index.md` page as a "hero section" that remains visible across paginated routes, making it a good place to pin announcements.
+ - Add your site the Google's [Programmable Search Engine](https://programmablesearchengine.google.com/) and use the code in the `config.toml` (see "gcse") to activate a Google Search button.
+ - Add commit shat to the footer [as described here](https://themes.gohugo.io/themes/beautifulhugo/#commit-sha-on-the-footer)
