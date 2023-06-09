@@ -1,7 +1,10 @@
-baseurl = "https://nitya.github.io"
+baseurl = "https://blog.nitya.dev"
 DefaultContentLanguage = "en"
 title = "Connecting Dots"
 theme = "beautifulhugo"
+paginate = 3
+enableGitInfo = true
+
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -9,16 +12,16 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "G-NP5Z83F9EN"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build Things - Share Insights - Help People Learn."
+# homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Applications﹒AI﹒Automation"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
+  dateFormat = "Jan 2, 2006"
+  commit = "https://github.com/nitya/blog/tree/" #false
   rss = true
   comments = true
   readingTime = true
@@ -27,8 +30,8 @@ pygmentsCodefencesGuessSyntax = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-#  hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  hideAuthor = true
+  gcse = "d2229a0a74b7c4548" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
@@ -44,21 +47,23 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Nitya Narasimhan, PhD"
+  name = "Nitya Narasimhan"
   website = "nitya.dev"
-  email = "hello@nitya.dev"
-  #facebook = "username"
   github = "nitya"
+  dev = "nitya"
+  twitter = "nitya"
+  linkedin = "nityan"
+  instagram = "sketchthedocs"
+  #email = "hello@nitya.dev"
+  #mastodon = "https://fosstodon.org/@nitya"
+  #youtube = "user/username" # or channel/channelname
+  #facebook = "username"
   #gitlab = "username"
   #bitbucket = "username"
-  twitter = "nitya"
   #reddit = "username"
-  linkedin = "nityan"
   #xing = "username"
   #stackoverflow = "users/XXXXXXX/username"
   #snapchat = "username"
-  instagram = "sketchthedocs"
-  #youtube = "user/username" # or channel/channelname
   #soundcloud = "username"
   #spotify = "username"
   #bandcamp = "username"
@@ -68,7 +73,6 @@ pygmentsCodefencesGuessSyntax = true
   #telegram = "username"
   #500px = "username"
   #codepen = "username"
-  #mastodon = "url"
   #kaggle = "username"
   #weibo = "username"
   #slack = "username"
@@ -86,26 +90,26 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Projects"
+    identifier = "collections"
+    name = "Collections"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    parent = "collections"
+    name = "Applications"
+    url = "page/applications/"
     weight = 1
 
 [[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
+    parent = "collections"
+    name = "AI ML"
+    url = "page/aiml/"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
+    parent = "collections"
+    name = "Automation"
+    url = "page/automation/"
     weight = 3
 
 [[menu.main]]

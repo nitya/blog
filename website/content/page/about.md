@@ -1,20 +1,29 @@
 ---
 title: About me
-subtitle: I want to help people learn, grow, and thrive, in tech! 
+subtitle: Research ﹒ Engineering ﹒ Advocacy
 comments: false
 ---
 
-My name is Nitya Narasimhan. Here are 10 things to know about me.
+Thanks for stopping by! Hello - I'm Nitya 👋🏽! 
 
-1. **I am a PhD.** My thesis focus was on Reliable Distributed (Java) Systems.
-2. **I am a Parent.** This is my top priority and my North Star.
-3. **I am a Polyglot.** With 25+ years in tech, you pick up a few programming languages.
-4. **I am an Innovator.** I have 12+ issued patents (and counting ..)
-5. **I am an ex-Researcher.** My research focused on Mobile & Ubiquitous Computing.
-6. **I am a Visual Storyteller.** I like to see the big picture before diving into details.
-7. **I am a Community Leader.** I founded key tech meetups & conferences in New York.
-8. **I am a Developer Advocate.** I help JavaScript developers build on Cloud + AI.
-9. **I am a Public Speaker.** I talk about technology, self-care, creativity & community.
-10. **I am Collaborative by Nature, Curious by Design, Creative at Heart.** Here to help!
+## 5️⃣ Things About Me
 
-> I am still working on a better way to introduce myself. So stay tuned for an update!
+1. **I am a Phd in Computer Engineering**. My thesis focused on building middleware for survivable distributed Java systems. I also explored secure group communication protocols and mobile agent frameworks for e-commerce.
+2. **I am a Proud Parent.** This is a role that sparks joy. I am invested in helping this next generation learn to be creative, curious and compassionate in all facets. I'm currently exploring how we can use Cloud and AI to build self-guided learning tools with my 14yo.
+3. **I am a Visual Storyteller** I've always been a fan of handwritten notes, but only recently discovered "sketchnoting" was a formal skill. I love visualizing complex tech concepts or content, and helping people learn to do the same. See [@sketchthedocs](https://twitter.com/sketchthedocs) for more.
+4. **I am a Polyglot Innovator** With 25+ years of software research, engineering and advocacy experience behind me, I've learned to connect the dots across languages, frameworks and ideas in ways that create differentiation. I have 12+ issue patents and more pending.
+5. **I am a Technology Advocate** In the past decade I realized the power of community and advocacy as a way to grow awareness and engagement with new ideas and technologies at scale. I like to _build things that help people learn_ - from rapid prototypes to training content.
+
+
+---
+
+## 🔗 Why "Connecting Dots"?
+
+I love visual metaphors and word play. "Connect The Dots" works at multiple levels:
+- As a visual storyteller, _connecting the dots_ is the "hello world" for building up your sketching or writing skills. It is the perfect metaphor for getting your fundamentals right before tackling complex problems.
+- As an innovator, the dictionary definition of _connect the dots_ as "bringing together information from different places" is inspired. I view it as my signature skill, using decades of experience to make connections or observe patterns in ways that help transfer knowledge.
+- As a parent, _connect the dots_ will forever be the simplest of games that demonstrates a subtle degree of strategy in thinking and planning ahead. It is also one of the most inclusive games for all ages - requiring just a pen, paper and your competitive spirit.
+
+---
+
+This blog is primarily to help me capture and share insights into the changing technology landscape through source code, sketchnotes and systems thinking. Beware. Here be dragons 🐉.
