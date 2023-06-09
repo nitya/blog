@@ -147,3 +147,18 @@ This project was already created in a GitHub repository. So we'll start with [St
 
  * Visit the [Pages Settings](https://github.com/nitya/blog/settings/pages) for the repo, set the `Build and deployment` source to _"GitHub Actions"_.
  * Create a `.github/workflows/deploy-hugo.yml` file to define the GitHub Actions for this project.
+ * Make changes to reflect the fact that your `working-directory` is "./website". See the final file in this project, for the working version.
+
+Commit changes to trigger the action. Successful completion should see your website hosted on [the GitHub Pages endpoint](https://nitya.github.io/blog/) for your project.
+
+_Success! You can now continue customizing the content and the build/deploy will happen automatically on every commit_.
+
+If you want to add a Custom Domain, there are 3 steps needed:
+ - Follow the [GitHub instructions](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) to add relevant records to your DNS provider.
+ - Update the 'Pages' Settings on your repo to add the Custom Domain.
+ - Add a [CNAME file](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages#cname-errors) as a `website/static/CNAME` file to ensure it remains constant with each deploy.
+
+
+## 4. CUSTOMIZATION
+
+_Now, its time to understand how to create new blog posts, new content pages, and update template structure for reuse across pages_.
