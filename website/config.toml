@@ -1,4 +1,4 @@
-baseurl = "https://nitya.github.io/blog"
+baseurl = "https://blog.nitya.dev"
 DefaultContentLanguage = "en"
 title = "Connecting Dots"
 theme = "beautifulhugo"
