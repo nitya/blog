@@ -12,7 +12,7 @@ I decided to go with the [Beautfiul Hugo](https://themes.gohugo.io/themes/beauti
     $ brew install hugo
 
     # Upgrade installed version with Homebrew
-    $ 
+    $ brew upgrade hugo
 
     # Check installed version
     $ hugo version
@@ -191,7 +191,25 @@ Build the static site for production, then use [supported hosting options](https
         hugo server
         ```
 
-## 7. Hugo Syntax for Reference
+## 7. Update Templates
+
+Sometimes you might not like the default template for some part of the theme, or may want to customize it further. Hugo always checks for "overrides" in your instantiated folder before picking up "originals" from the themes subfolder - so I create a local copy and override that as needed.
+
+Example:
+ 1. The default Beautiful Hugo template adds a _Last Modified_ metadata tag to each post in the post preview header, which can make it ugly.
+ 2. I checked the `themes/beautifulhugo/layouts` folder and found this was defined in the `partials/post_meta` template.
+ 3. I copied that over to `website/layouts/partials/post_meta` and commented out the relevant element. Rebuild the site - and presto! No more last-modified metadata.
+
+    ```html
+    <!--
+    {{ if ne $datestr $lastmodstr }}
+        &nbsp;{{ $lastmodstr | i18n "lastModified"  }}
+    {{ end }}
+    -->
+    ```
+ 4. Next challenge: Add the last modified date to the top of each post instead so people get a sense for when that post was last modified. We follow the same procedure - except this time the template is the `_default/single.html` layout. Copy that over and make the changes (see the source under `website/layouts/_default/single.html`) for reference.
+
+## 8. Hugo Syntax for Reference
 
   - [Directory Structure](https://gohugo.io/getting-started/directory-structure/) | [Configuration File](https://gohugo.io/getting-started/configuration/#configuration-file) | [`hugo` commands](https://gohugo.io/commands/)
   - [Frontmatter: Predefined](https://gohugo.io/content-management/front-matter/#predefined) variables on pages are standard

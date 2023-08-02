@@ -116,3 +116,9 @@ googleAnalytics = "G-NP5Z83F9EN"
     name = "Tags"
     url = "tags"
     weight = 3
+
+[[menu.main]]
+    parent = "collections"
+    name = "References"
+    url = "page/references/"
+    weight = 4
